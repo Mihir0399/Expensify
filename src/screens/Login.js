@@ -53,8 +53,8 @@ const Login = ({navigation}) => {
   };
   useEffect(() => {
     GoogleSignin.configure({
-      //   webClientId:
-      //     '617826540532-vlnuk2mi3ua1k60as5gnf04s817piti1.apps.googleusercontent.com',
+      webClientId:
+        '617826540532-vlnuk2mi3ua1k60as5gnf04s817piti1.apps.googleusercontent.com',
     });
   });
   const signIn = async () => {
